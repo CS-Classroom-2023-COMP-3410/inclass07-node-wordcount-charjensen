@@ -1,0 +1,19 @@
+{
+  "name": "inclass07-node-wordcount-charjensen",
+  "version": "1.0.0",
+  "description": "Node.js Wordcount Exercise\r ---",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

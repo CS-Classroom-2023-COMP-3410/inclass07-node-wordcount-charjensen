@@ -37,7 +37,7 @@ describe('colorWord', () => {
 describe('printColoredLines', () => {
     let consoleOutput = [];
     const originalLog = console.log;
-    
+
     beforeEach(() => {
         consoleOutput = [];
         console.log = (output) => consoleOutput.push(output);
@@ -52,7 +52,7 @@ describe('printColoredLines', () => {
 Hello World!
 Bye World!`;
         const wordCounts = getWordCounts(content);
-        
+
         printColoredLines(content, wordCounts);
 
         expect(consoleOutput[0]).toBe(chalk.green('Hello') + ' ' + chalk.green('World') + ' ');
